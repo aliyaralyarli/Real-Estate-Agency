@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.head {
+    padding: 25px 0;
+    background-color: #06112A;
+    overflow: hidden;
+}
+
+.free-call {
+    float: left;
+    margin-right: 190px;
+}
+
+.free-call .icon {
+    position: absolute;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    transition: .5s;
+}
+
+.free-call-text span {
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+}
+
+.free-call-text p {
+    font-size: 12px;
+    color: #999999;
+    font-weight: 500;
+}
+
+.second {
+    background-image: url(https://preview.colorlib.com/theme/oakberry/images/bg_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 335px 0;
+    position: relative;
+}
+
+.second .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+}
+
+.second-bar-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .1;
+}
+
+.second-bar {
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.second-bar-left {
+    position: absolute;
+    width: 10%;
+    top: 15px;
+    left: 9%;
+}
+
+.second-bar-left span {
+    color: #fff;
+    line-height: 0.1;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.second-bar-right {
+    position: absolute;
+    top: 20px;
+    left: 25%;
+}
+
+.second-bar-right a {
+    text-decoration: none;
+    color: #ffffffb3;
+    font-size: 13px;
+    padding: 19.2px 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 1.2rem 25px;
+    transition: .3s;
+}
+
+.second-bar-right a:hover {
+    color: #fff;
+}
+
+.second-text {
+    text-align: center;
+}
+
+.second-text h2 {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 16%;
+    left: 33%;
+    line-height: 1.1;
+}
+
+.second-text p {
+    position: absolute;
+    color: #ffffffcc;
+    font-size: 1rem;
+    margin-bottom: 48px;
+    font-weight: 400;
+    width: 40%;
+    top: 55%;
+    left: 30%;
+}
+
+.second-text a {
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5ea51d;
+    border: 1px solid #5ea51d;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 1rem 3rem;
+    top: 70%;
+    left: 42%;
+}
+
+.free-call .icon:hover {
+    transform: rotate(360deg) translateX(-20px) scale(1.5);
+}
